@@ -86,7 +86,7 @@ const promptForNextBatch = () => {
 };
 
 const createFolderAndFile = (slug, title, selectedValues) => {
-	const folderPath = path.join("content", "ru", slug);
+	const folderPath = path.join("content", "blog", "ru", slug);
 	const fileContent = `---
 title: ${title}
 description: This is a post on My Blog about touchpoints and circling wagons.
@@ -101,7 +101,9 @@ selectedValues:
   style: "${selectedValues.style}"
 ---
 
+Welcome here to My Blog about touchpoints and circling wagons.
 Добро пожаловать на наш сайт! 
+
 Здесь вы найдете отличную подборку поздравлений на любой случай. 
 Хотите поздравить друга с днём рождения, коллегу с профессиональным праздником или близких с Новым годом? У нас есть всё, чтобы сделать ваш поздравительный текст незабываемым. Выбирайте нужную категорию и находите лучшие слова для ваших близких и друзей!
 `;
