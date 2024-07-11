@@ -19,8 +19,8 @@ const recipientDisplayMapping = {
 const holidayDisplayMapping = {
 	"s-dnem-rozhdeniya": "c Днем рождения",
 	"s-yubileem": "с Юбилеем",
-	"1-aprelya": "с 1 апреля",
-	"9-maya-den-pobedy-v-vov": "с 9 мая, день победы в ВОВ",
+	"s-1-aprelya": "с 1 апреля",
+	"s-9-maya-den-pobedy-v-vov": "с 9 мая, день победы в ВОВ",
 	"s-novym-godom": "с Новым годом",
 	"s-rozhdestvom": "Рождеством",
 	"s-8-marta": "с 8 марта",
@@ -67,12 +67,179 @@ const professionDisplayMapping = {
 const styleDisplayMapping = {
 	smeshnoje: "Смешное",
 	romantichnoe: "Романтичное",
-	"v-stihah": "В стихах",
 	formalnoje: "Формальное и красивое",
-	torzhestvennoje: "Длинное торжественное",
 };
 
-const BATCH_SIZE = 500;
+const validCombinations = {
+	recipients: {
+		parnja: [
+			"s-dnem-rozhdeniya",
+			"s-yubileem",
+			"s-1-aprelya",
+			"s-9-maya-dnem-pobedy-v-vov",
+			"s-novym-godom",
+			"s-rozhdestvom",
+			"s-dnem-zashitnika-otechestva",
+			"s-dnem-rossii",
+			"s-dnem-vlyublennih",
+			"s-godovshinoj-svavadby",
+			"so-svadboj",
+			"s-vypusknym-v-shkole",
+			"s-vypussknym-v-universitete",
+		],
+		devushku: [
+			"s-dnem-rozhdeniya",
+			"s-yubileem",
+			"s-1-aprelya",
+			"s-9-maya-dnem-pobedy-v-vov",
+			"s-novym-godom",
+			"s-rozhdestvom",
+			"s-8-marta",
+			"s-dnem-rossii",
+			"s-dnem-vlyublennih",
+			"s-dnem-materi",
+			"s-godovshinoj-svavadby",
+			"so-svadboj",
+			"s-vypusknym-v-shkole",
+			"s-vypussknym-v-universitete",
+		],
+		mamu: [
+			"s-dnem-rozhdeniya",
+			"s-yubileem",
+			"s-1-aprelya",
+			"s-9-maya-dnem-pobedy-v-vov",
+			"s-novym-godom",
+			"s-rozhdestvom",
+			"s-8-marta",
+			"s-dnem-rossii",
+			"s-dnem-vlyublennih",
+			"s-dnem-materi",
+			"s-godovshinoj-svavadby",
+			"so-svadboj",
+			"s-vypussknym-v-universitete",
+		],
+		papu: [
+			"s-dnem-rozhdeniya",
+			"s-yubileem",
+			"s-1-aprelya",
+			"s-9-maya-dnem-pobedy-v-vov",
+			"s-novym-godom",
+			"s-rozhdestvom",
+			"s-dnem-zashitnika-otechestva",
+			"s-dnem-rossii",
+			"s-dnem-vlyublennih",
+			"s-godovshinoj-svavadby",
+			"so-svadboj",
+			"s-vypussknym-v-universitete",
+		],
+		brata: [
+			"s-dnem-rozhdeniya",
+			"s-yubileem",
+			"s-1-aprelya",
+			"s-9-maya-dnem-pobedy-v-vov",
+			"s-novym-godom",
+			"s-rozhdestvom",
+			"s-dnem-zashitnika-otechestva",
+			"s-dnem-rossii",
+			"s-dnem-vlyublennih",
+			"s-godovshinoj-svavadby",
+			"so-svadboj",
+			"s-vypusknym-v-shkole",
+			"s-vypussknym-v-universitete",
+		],
+		sestru: [
+			"s-dnem-rozhdeniya",
+			"s-yubileem",
+			"s-1-aprelya",
+			"s-9-maya-dnem-pobedy-v-vov",
+			"s-novym-godom",
+			"s-rozhdestvom",
+			"s-8-marta",
+			"s-dnem-rossii",
+			"s-dnem-vlyublennih",
+			"s-dnem-materi",
+			"s-godovshinoj-svavadby",
+			"so-svadboj",
+			"s-vypusknym-v-shkole",
+			"s-vypussknym-v-universitete",
+		],
+		druga: [
+			"s-dnem-rozhdeniya",
+			"s-yubileem",
+			"s-1-aprelya",
+			"s-9-maya-dnem-pobedy-v-vov",
+			"s-novym-godom",
+			"s-rozhdestvom",
+			"s-dnem-zashitnika-otechestva",
+			"s-dnem-rossii",
+			"s-dnem-vlyublennih",
+			"s-godovshinoj-svavadby",
+			"so-svadboj",
+			"s-vypusknym-v-shkole",
+			"s-vypussknym-v-universitete",
+		],
+		podrugu: [
+			"s-dnem-rozhdeniya",
+			"s-yubileem",
+			"s-1-aprelya",
+			"s-9-maya-dnem-pobedy-v-vov",
+			"s-novym-godom",
+			"s-rozhdestvom",
+			"s-8-marta",
+			"s-dnem-rossii",
+			"s-dnem-vlyublennih",
+			"s-dnem-materi",
+			"s-godovshinoj-svavadby",
+			"so-svadboj",
+			"s-vypusknym-v-shkole",
+			"s-vypussknym-v-universitete",
+		],
+		babushku: [
+			"s-dnem-rozhdeniya",
+			"s-yubileem",
+			"s-1-aprelya",
+			"s-9-maya-dnem-pobedy-v-vov",
+			"s-novym-godom",
+			"s-rozhdestvom",
+			"s-8-marta",
+			"s-dnem-rossii",
+			"s-dnem-vlyublennih",
+			"s-godovshinoj-svavadby",
+			"so-svadboj",
+		],
+		dedushku: [
+			"s-dnem-rozhdeniya",
+			"s-yubileem",
+			"s-1-aprelya",
+			"s-9-maya-dnem-pobedy-v-vov",
+			"s-novym-godom",
+			"s-rozhdestvom",
+			"s-dnem-zashitnika-otechestva",
+			"s-dnem-rossii",
+			"s-dnem-vlyublennih",
+			"s-godovshinoj-svavadby",
+			"so-svadboj",
+		],
+		kollegu: [
+			"s-dnem-rozhdeniya",
+			"s-yubileem",
+			"s-1-aprelya",
+			"s-9-maya-dnem-pobedy-v-vov",
+			"s-novym-godom",
+			"s-rozhdestvom",
+			"s-dnem-zashitnika-otechestva",
+			"s-8-marta",
+			"s-dnem-rossii",
+			"s-dnem-vlyublennih",
+			"s-dnem-materi",
+			"s-godovshinoj-svavadby",
+			"so-svadboj",
+			"s-vypussknym-v-universitete",
+		],
+	},
+};
+
+const BATCH_SIZE = 1000;
 
 const rl = readline.createInterface({
 	input: process.stdin,
@@ -86,7 +253,7 @@ const promptForNextBatch = () => {
 };
 
 const createFolderAndFile = (slug, title, selectedValues) => {
-	const folderPath = path.join("content", "blog", "ru", slug);
+	const folderPath = path.join("content", "ru", slug);
 	const fileContent = `---
 title: ${title}
 description: This is a post on My Blog about touchpoints and circling wagons.
@@ -123,10 +290,19 @@ Welcome here to My Blog about touchpoints and circling wagons.
 	});
 };
 
+const isValidCombination = (recipient, holiday) => {
+	return (
+		validCombinations.recipients[recipient] &&
+		validCombinations.recipients[recipient].includes(holiday)
+	);
+};
+
 const generateSlugs = async () => {
 	const slugs = [];
 	for (const recipientKey in recipientDisplayMapping) {
 		for (const holidayKey in holidayDisplayMapping) {
+			if (!isValidCombination(recipientKey, holidayKey)) continue;
+
 			for (const professionKey in professionDisplayMapping) {
 				for (const styleKey in styleDisplayMapping) {
 					const slugParts = ["pozdravit", recipientKey];

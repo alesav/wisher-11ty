@@ -1,8 +1,8 @@
 /* Defaults */
 :root {
-	--font-family: -apple-system, system-ui, sans-serif;
-	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
-}
+	--font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+	--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  }
 
 /* Theme colors */
 :root {
@@ -46,14 +46,9 @@ body {
 	padding: 0;
 	margin: 0 auto;
 	font-family: var(--font-family);
-	color: var(--text-color);
-	background-color: var(--background-color);
 }
 html {
 	overflow-y: scroll;
-}
-body {
-	max-width: 40em;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -89,9 +84,6 @@ a[href]:active {
 	color: var(--text-color-link-active);
 }
 
-main {
-	padding: 1rem;
-}
 main :first-child {
 	margin-top: 0;
 }
@@ -107,9 +99,17 @@ header:after {
 
 .links-nextprev {
 	list-style: none;
-	border-top: 1px dashed var(--color-gray-20);
-	padding: 1em 0;
-}
+	padding: 0;
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .links-nextprev a {
+	color: #3B82F6;
+	text-decoration: none;
+	font-weight: 600;
+  }
 
 table {
 	margin: 1em 0;
@@ -226,7 +226,7 @@ header {
 	align-items: center;
 	justify-content: center;
 	text-transform: capitalize;
-	font-style: italic;
+	color: #3B82F6;
 }
 .postlist-item > .post-tag {
 	align-self: center;
@@ -234,13 +234,17 @@ header {
 
 /* Tags list */
 .post-metadata {
-	display: inline-flex;
-	flex-wrap: wrap;
-	gap: .5em;
 	list-style: none;
 	padding: 0;
-	margin: 0;
-}
+	margin-bottom: 24px;
+	font-size: 18px;
+	color: #6B7280;
+  }
+  
+  .post-metadata li {
+	display: inline-block;
+	margin-right: 16px;
+  }
 .post-metadata time {
 	margin-right: 1em;
 }
