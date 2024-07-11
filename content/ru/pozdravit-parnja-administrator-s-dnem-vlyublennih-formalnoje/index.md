@@ -4,7 +4,15 @@ description: This is a post on My Blog about touchpoints and circling wagons.
 date: 2018-09-30
 tags: second tag
 wishes:
-  - "Это первое поздравление"
+- id: 9
+  text: "С днем святого Валентина, дорогой администратор! 
+
+Пусть этот день дарит Вам море улыбок, приятных сюрпризов и самых тёплых чувств! Желаем Вам успехов в работе, гармонии в душе и неиссякаемого оптимизма!
+
+Пусть этот праздник станет для Вас настоящим символом любви, тепла и взаимного понимания! С праздником!"
+  rating: "0"
+  updated: "null"
+- "Это первое поздравление"
 selectedValues:
   recipients: "parnja"
   holidays: "s-dnem-vlyublennih"
