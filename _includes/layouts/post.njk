@@ -15,7 +15,7 @@ layout: layouts/base.njk
           </select>
         </div>
         <div class="col">
-          <label for="holidays">С чем</label>
+          <label for="holidays"><b>С чем</b></label>
           <select id="holidays">
             {% for value, label in dropdowns.selectedValues.holidays %}
               <option value="{{ value }}" {% if value == selectedValues.holidays %}selected{% endif %}>{{ label }}</option>
@@ -23,7 +23,7 @@ layout: layouts/base.njk
           </select>
         </div>
         <div class="col">
-          <label for="professions">Профессия</label>
+          <label for="professions"><b>Профессия</b></label>
           <select id="professions">
             {% for value, label in dropdowns.selectedValues.professions %}
               <option value="{{ value }}" {% if value == selectedValues.professions %}selected{% endif %}>{{ label }}</option>
@@ -31,7 +31,7 @@ layout: layouts/base.njk
           </select>
         </div>
         <div class="col">
-          <label for="style">Стиль</label>
+          <label for="style"><b>Стиль</b></label>
           <select id="style">
             {% for value, label in dropdowns.selectedValues.style %}
               <option value="{{ value }}" {% if value == selectedValues.style %}selected{% endif %}>{{ label }}</option>

@@ -4,7 +4,17 @@ description: This is a post on My Blog about touchpoints and circling wagons.
 date: 2024-07-12
 tags: second tag
 wishes:
-  - "Это первое поздравление"
+  - id: 23
+    text: "С Днем рождения, парень-криптоманьяк! Желаю тебе, чтобы твои биткоины росли, как на дрожжах, а альткоины не сливались в унитаз. Пусть комиссии будут минимальны, а хейтеры - бессильны. 
+
+И помни, в мире криптовалют, как и в жизни, главное - не размер твоей фермы, а то, как ты ее используешь! 
+
+С праздником, профи! 
+"
+    rating: "0"
+    updated: "null"
+- "Это первое поздравление"
+
 selectedValues:
   recipients: "parnja"
   holidays: "s-dnem-rozhdeniya"
