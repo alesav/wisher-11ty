@@ -455,6 +455,7 @@ document.addEventListener("DOMContentLoaded", function () {
 				clearInterval(interval);
 			}
 		}, delay);
+		return interval;
 	}
 
 	async function generateWish() {
@@ -531,7 +532,32 @@ document.addEventListener("DOMContentLoaded", function () {
 		}
 	}
 
-	generateBtn.addEventListener("click", generateWish);
+	generateBtn.addEventListener("click", async () => {
+		generateBtn.textContent = "Думаю...";
+		typeText(
+			"ИИ думает......................еще немного.................................ща все будет..........................",
+			wishText
+		);
+		await generateWish();
+		generateBtn.textContent = "Сгенерировать еще";
+	});
+
+	let currentTypingInterval = null;
+
+	generateBtn.addEventListener("click", async () => {
+		if (currentTypingInterval) {
+			clearInterval(currentTypingInterval); // Stop the current typing if it's in progress }
+			generateBtn.textContent = "Thinking...";
+			currentTypingInterval = typeText(
+				"ИИ думает......................еще немного.................................ща все будет..........................",
+				wishText
+			);
+			const response = await generateWish();
+			clearInterval(currentTypingInterval); // Stop the "thinking" text if (response && response.result) {
+			typeText(response.result, wishText);
+		}
+		generateBtn.textContent = "Сгенерировать еще";
+	});
 
 	copyBtn.addEventListener("click", () => {
 		navigator.clipboard.writeText(wishText.innerText);

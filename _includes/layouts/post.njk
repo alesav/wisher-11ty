@@ -7,7 +7,7 @@ layout: layouts/base.njk
     <section class="wisher-ui">
       <div class="row">
         <div class="col">
-          <label for="recipients">Кого</label>
+          <label for="recipients"><b>Кого</b></label>
           <select id="recipients">
             {% for value, label in dropdowns.selectedValues.recipients %}
               <option value="{{ value }}" {% if value == selectedValues.recipients %}selected{% endif %}>{{ label }}</option>
