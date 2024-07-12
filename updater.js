@@ -66,25 +66,37 @@ const updateMarkdownFile = (wish) => {
 		const wishesEnd = fileContent.indexOf("\nselectedValues:");
 
 		// Extract the existing wishes section
-		const existingWishes = fileContent
+		let existingWishes = fileContent
 			.slice(wishStart, wishesEnd)
 			.trim()
-			.split("\n")
-			.map((line) => line.trim());
+			.split(/(?=^- id:)/m)
+			.filter((w) => w.trim());
+
+		// Function to format a single wish
+		const formatWish = (w) => {
+			const lines = w.trim().split("\n");
+			const formattedLines = lines.map((line, index) => {
+				if (index === 0) return line; // Keep the "- id:" line as is
+				return "  " + line.trim(); // Add two spaces to other lines
+			});
+			return formattedLines.join("\n");
+		};
+
+		// Format all existing wishes
+		existingWishes = existingWishes.map(formatWish);
 
 		// Check if the wish already exists
-		const wishExists = existingWishes.some((line) =>
-			line.includes(`- id: ${id}`)
-		);
+		const wishExists = existingWishes.some((w) => w.includes(`- id: ${id}`));
 
 		if (
 			!wishExists ||
 			(wish.updated && new Date(wish.updated) > new Date(wishExists.updated))
 		) {
-			const newWishEntry = `- id: ${id}\n  text: "${wishText.replace(
-				/"/g,
-				'\\"'
-			)}"\n  rating: "${rating}"\n  updated: "${updated}"`;
+			const newWishEntry = formatWish(`- id: ${id}
+text: "${wishText.replace(/"/g, '\\"')}"
+rating: "${rating}"
+updated: "${updated}"`);
+
 			const newWishesSection = [newWishEntry, ...existingWishes].join("\n");
 
 			// Replace the old wishes section with the new one
