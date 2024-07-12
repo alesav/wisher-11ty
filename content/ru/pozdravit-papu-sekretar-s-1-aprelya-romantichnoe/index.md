@@ -1,7 +1,7 @@
 ---
 title: Поздравить папу секретаря с 1 апреля. Романтичное
-description: This is a post on My Blog about touchpoints and circling wagons.
-date: 2024-07-12
+description: Хотите поздравить папу с 1 апреля или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
+date: 2024-07-13
 tags: second tag
 wishes:
   - "Это первое поздравление"

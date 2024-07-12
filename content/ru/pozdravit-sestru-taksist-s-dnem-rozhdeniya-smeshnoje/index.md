@@ -1,7 +1,7 @@
 ---
 title: Поздравить сестру таксиста c Днем рождения. Смешное
-description: This is a post on My Blog about touchpoints and circling wagons.
-date: 2024-07-12
+description: Хотите поздравить сестру c Днем рождения или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
+date: 2024-07-13
 tags: second tag
 wishes:
 - id: 17
@@ -15,6 +15,7 @@ wishes:
   rating: "0"
   updated: "null"
 - "Это первое поздравление"
+
 selectedValues:
   recipients: "sestru"
   holidays: "s-dnem-rozhdeniya"

@@ -1,7 +1,7 @@
 ---
 title: Поздравить парня администратора с Днем влюбленных. Романтичное
-description: This is a post on My Blog about touchpoints and circling wagons.
-date: 2024-07-12
+description: Хотите поздравить парня с Днем влюбленных или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
+date: 2024-07-13
 tags: second tag
 wishes:
 - id: 12
@@ -16,6 +16,7 @@ wishes:
   rating: "0"
   updated: "null"
 - "Это первое поздравление"
+
 selectedValues:
   recipients: "parnja"
   holidays: "s-dnem-vlyublennih"

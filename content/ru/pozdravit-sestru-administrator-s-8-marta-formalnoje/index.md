@@ -1,7 +1,7 @@
 ---
 title: Поздравить сестру администратора с 8 марта. Формальное и красивое
-description: This is a post on My Blog about touchpoints and circling wagons.
-date: 2024-07-12
+description: Хотите поздравить сестру с 8 марта или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
+date: 2024-07-13
 tags: second tag
 wishes:
 - id: 2
@@ -18,6 +18,7 @@ wishes:
   rating: "0"
   updated: "null"
 - "Это первое поздравление"
+
 selectedValues:
   recipients: "sestru"
   holidays: "s-8-marta"

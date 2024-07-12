@@ -259,12 +259,12 @@ function formatDate(date) {
 	return `${year}-${month}-${day}`;
 }
 
-const createFolderAndFile = (slug, title, selectedValues) => {
+const createFolderAndFile = (slug, title, selectedValues, description) => {
 	const currentDate = formatDate(new Date());
 	const folderPath = path.join("content", "ru", slug);
 	const fileContent = `---
 title: ${title}
-description: This is a post on My Blog about touchpoints and circling wagons.
+description: ${description}
 date: ${currentDate}
 tags: second tag
 wishes:
@@ -335,7 +335,7 @@ const generateSlugs = async () => {
 
 					const description = `Хотите поздравить ${recipientDisplayMapping[recipientKey]} ${holidayDisplayMapping[holidayKey]} или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  `;
 
-					slugs.push({ slug, title, selectedValues });
+					slugs.push({ slug, title, selectedValues, description });
 				}
 			}
 		}
@@ -343,8 +343,8 @@ const generateSlugs = async () => {
 
 	for (let i = 0; i < slugs.length; i += BATCH_SIZE) {
 		const batch = slugs.slice(i, i + BATCH_SIZE);
-		for (const { slug, title, selectedValues } of batch) {
-			createFolderAndFile(slug, title, selectedValues);
+		for (const { slug, title, selectedValues, description } of batch) {
+			createFolderAndFile(slug, title, selectedValues, description);
 		}
 		if (i + BATCH_SIZE < slugs.length) {
 			await promptForNextBatch();

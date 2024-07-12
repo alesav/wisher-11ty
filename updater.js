@@ -81,10 +81,10 @@ const updateMarkdownFile = (wish) => {
 			!wishExists ||
 			(wish.updated && new Date(wish.updated) > new Date(wishExists.updated))
 		) {
-			const newWishEntry = `  - id: ${id}\n    text: "${wishText.replace(
+			const newWishEntry = `- id: ${id}\n  text: "${wishText.replace(
 				/"/g,
 				'\\"'
-			)}"\n    rating: "${rating}"\n    updated: "${updated}"`;
+			)}"\n  rating: "${rating}"\n  updated: "${updated}"`;
 			const newWishesSection = [newWishEntry, ...existingWishes].join("\n");
 
 			// Replace the old wishes section with the new one
