@@ -4,7 +4,11 @@ description: Хотите поздравить папу с 1 апреля или
 date: 2024-07-13
 tags: second tag
 wishes:
-  - "Это первое поздравление"
+- id: 0
+  text: "Это первое поздравление"
+  rating: "0"
+  updated: "null"
+
 selectedValues:
   recipients: "papu"
   holidays: "s-1-aprelya"

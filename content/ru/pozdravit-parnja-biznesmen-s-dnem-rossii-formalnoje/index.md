@@ -4,7 +4,11 @@ description: Хотите поздравить парня с Днем Росси
 date: 2024-07-13
 tags: second tag
 wishes:
-  - "Это первое поздравление"
+- id: 0
+  text: "Это первое поздравление"
+  rating: "0"
+  updated: "null"
+
 selectedValues:
   recipients: "parnja"
   holidays: "s-dnem-rossii"

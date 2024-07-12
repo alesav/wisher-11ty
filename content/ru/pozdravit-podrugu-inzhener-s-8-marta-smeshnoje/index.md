@@ -4,7 +4,11 @@ description: Хотите поздравить подругу с 8 марта и
 date: 2024-07-13
 tags: second tag
 wishes:
-  - "Это первое поздравление"
+- id: 0
+  text: "Это первое поздравление"
+  rating: "0"
+  updated: "null"
+
 selectedValues:
   recipients: "podrugu"
   holidays: "s-8-marta"

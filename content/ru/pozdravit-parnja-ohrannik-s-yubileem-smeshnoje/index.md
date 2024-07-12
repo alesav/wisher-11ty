@@ -16,7 +16,10 @@ wishes:
   С юбилеем!"
   rating: "0"
   updated: "null"
-- "Это первое поздравление"
+- id: 0
+  text: "Это первое поздравление"
+  rating: "0"
+  updated: "null"
 
 selectedValues:
   recipients: "parnja"
