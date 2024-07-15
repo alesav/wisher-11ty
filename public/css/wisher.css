@@ -55,6 +55,11 @@ select {
   cursor: pointer;
 }
 
+select option {
+  background-color: #333; /* Dark background for options */
+  color: #fff; /* Light text color for options */
+}
+
 .generated-text {
   min-height: 250px;
   border: 1px solid #ddd;
