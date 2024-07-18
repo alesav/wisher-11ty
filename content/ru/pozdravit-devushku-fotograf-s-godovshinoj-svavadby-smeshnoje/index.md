@@ -1,7 +1,7 @@
 ---
 title: Поздравить девушку фотографа с Годовщиной свадьбы. Смешное
 description: Хотите поздравить девушку с Годовщиной свадьбы или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-godovshinoj-svavadby"
   professions: "fotograf"
   style: "smeshnoje"
+
+links:
+- slug: "pozdravit-devushku-s-godovshinoj-svavadby-smeshnoje"
+  title: "Поздравить девушку с Годовщиной свадьбы. Смешное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

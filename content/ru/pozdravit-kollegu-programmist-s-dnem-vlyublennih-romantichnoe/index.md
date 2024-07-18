@@ -1,7 +1,7 @@
 ---
 title: Поздравить коллегу программиста с Днем влюбленных. Романтичное
 description: Хотите поздравить коллегу с Днем влюбленных или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-dnem-vlyublennih"
   professions: "programmist"
   style: "romantichnoe"
+
+links:
+- slug: "pozdravit-kollegu-s-dnem-vlyublennih-romantichnoe"
+  title: "Поздравить коллегу с Днем влюбленных. Романтичное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

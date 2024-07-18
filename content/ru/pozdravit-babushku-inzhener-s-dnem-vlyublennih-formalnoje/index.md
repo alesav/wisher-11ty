@@ -1,7 +1,7 @@
 ---
 title: Поздравить бабушку инженера с Днем влюбленных. Формальное и красивое
 description: Хотите поздравить бабушку с Днем влюбленных или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-dnem-vlyublennih"
   professions: "inzhener"
   style: "formalnoje"
+
+links:
+- slug: "pozdravit-babushku-s-dnem-vlyublennih-formalnoje"
+  title: "Поздравить бабушку с Днем влюбленных. Формальное и красивое"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

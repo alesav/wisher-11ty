@@ -1,7 +1,7 @@
 ---
 title: Поздравить друга разработчика с Юбилеем. Романтичное
 description: Хотите поздравить друга с Юбилеем или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-yubileem"
   professions: "razrabotchik"
   style: "romantichnoe"
+
+links:
+- slug: "pozdravit-druga-s-yubileem-romantichnoe"
+  title: "Поздравить друга с Юбилеем. Романтичное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

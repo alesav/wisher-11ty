@@ -1,7 +1,7 @@
 ---
 title: Поздравить папу учителя c Днем рождения. Смешное
 description: Хотите поздравить папу c Днем рождения или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-dnem-rozhdeniya"
   professions: "uchitel"
   style: "smeshnoje"
+
+links:
+- slug: "pozdravit-papu-s-dnem-rozhdeniya-smeshnoje"
+  title: "Поздравить папу c Днем рождения. Смешное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

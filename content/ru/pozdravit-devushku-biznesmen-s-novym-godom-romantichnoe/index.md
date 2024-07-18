@@ -1,7 +1,7 @@
 ---
 title: Поздравить девушку бизнесмена с Новым годом. Романтичное
 description: Хотите поздравить девушку с Новым годом или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-novym-godom"
   professions: "biznesmen"
   style: "romantichnoe"
+
+links:
+- slug: "pozdravit-devushku-s-novym-godom-romantichnoe"
+  title: "Поздравить девушку с Новым годом. Романтичное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

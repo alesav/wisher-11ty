@@ -1,7 +1,7 @@
 ---
 title: Поздравить папу разработчика с Новым годом. Смешное
 description: Хотите поздравить папу с Новым годом или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-novym-godom"
   professions: "razrabotchik"
   style: "smeshnoje"
+
+links:
+- slug: "pozdravit-papu-s-novym-godom-smeshnoje"
+  title: "Поздравить папу с Новым годом. Смешное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

@@ -1,7 +1,7 @@
 ---
 title: Поздравить девушку бухгалтера с 8 марта. Романтичное
 description: Хотите поздравить девушку с 8 марта или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-8-marta"
   professions: "buhgalter"
   style: "romantichnoe"
+
+links:
+- slug: "pozdravit-devushku-s-8-marta-romantichnoe"
+  title: "Поздравить девушку с 8 марта. Романтичное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

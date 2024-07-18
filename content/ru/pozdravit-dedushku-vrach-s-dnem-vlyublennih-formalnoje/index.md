@@ -1,7 +1,7 @@
 ---
 title: Поздравить дедушку врача с Днем влюбленных. Формальное и красивое
 description: Хотите поздравить дедушку с Днем влюбленных или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-dnem-vlyublennih"
   professions: "vrach"
   style: "formalnoje"
+
+links:
+- slug: "pozdravit-dedushku-s-dnem-vlyublennih-formalnoje"
+  title: "Поздравить дедушку с Днем влюбленных. Формальное и красивое"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

@@ -1,7 +1,7 @@
 ---
 title: Поздравить дедушку программиста Рождеством. Романтичное
 description: Хотите поздравить дедушку Рождеством или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-rozhdestvom"
   professions: "programmist"
   style: "romantichnoe"
+
+links:
+- slug: "pozdravit-dedushku-s-rozhdestvom-romantichnoe"
+  title: "Поздравить дедушку Рождеством. Романтичное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

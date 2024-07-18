@@ -1,7 +1,7 @@
 ---
 title: Поздравить бабушку продавца с Юбилеем. Формальное и красивое
 description: Хотите поздравить бабушку с Юбилеем или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-yubileem"
   professions: "prodavets"
   style: "formalnoje"
+
+links:
+- slug: "pozdravit-babushku-s-yubileem-formalnoje"
+  title: "Поздравить бабушку с Юбилеем. Формальное и красивое"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

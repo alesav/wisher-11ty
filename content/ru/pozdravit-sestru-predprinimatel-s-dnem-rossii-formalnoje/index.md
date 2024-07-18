@@ -1,7 +1,7 @@
 ---
 title: Поздравить сестру предпринимателя с Днем России. Формальное и красивое
 description: Хотите поздравить сестру с Днем России или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-dnem-rossii"
   professions: "predprinimatel"
   style: "formalnoje"
+
+links:
+- slug: "pozdravit-sestru-s-dnem-rossii-formalnoje"
+  title: "Поздравить сестру с Днем России. Формальное и красивое"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

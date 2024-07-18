@@ -1,7 +1,7 @@
 ---
 title: Поздравить девушку бухгалтера с Выпускным в школе. Смешное
 description: Хотите поздравить девушку с Выпускным в школе или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-vypusknym-v-shkole"
   professions: "buhgalter"
   style: "smeshnoje"
+
+links:
+- slug: "pozdravit-devushku-s-vypusknym-v-shkole-smeshnoje"
+  title: "Поздравить девушку с Выпускным в школе. Смешное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

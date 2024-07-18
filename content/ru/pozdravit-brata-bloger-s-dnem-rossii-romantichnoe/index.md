@@ -1,7 +1,7 @@
 ---
 title: Поздравить брата блогера с Днем России. Романтичное
 description: Хотите поздравить брата с Днем России или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-dnem-rossii"
   professions: "bloger"
   style: "romantichnoe"
+
+links:
+- slug: "pozdravit-brata-s-dnem-rossii-romantichnoe"
+  title: "Поздравить брата с Днем России. Романтичное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

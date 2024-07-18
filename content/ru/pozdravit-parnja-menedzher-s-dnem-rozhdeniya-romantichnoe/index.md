@@ -1,7 +1,7 @@
 ---
 title: Поздравить парня менеджера c Днем рождения. Романтичное
 description: Хотите поздравить парня c Днем рождения или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-dnem-rozhdeniya"
   professions: "menedzher"
   style: "romantichnoe"
+
+links:
+- slug: "pozdravit-parnja-s-dnem-rozhdeniya-romantichnoe"
+  title: "Поздравить парня c Днем рождения. Романтичное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

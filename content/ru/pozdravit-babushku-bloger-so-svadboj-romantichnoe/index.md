@@ -1,7 +1,7 @@
 ---
 title: Поздравить бабушку блогера со Свадьбой. Романтичное
 description: Хотите поздравить бабушку со Свадьбой или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "so-svadboj"
   professions: "bloger"
   style: "romantichnoe"
+
+links:
+- slug: "pozdravit-babushku-so-svadboj-romantichnoe"
+  title: "Поздравить бабушку со Свадьбой. Романтичное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

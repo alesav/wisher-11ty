@@ -1,7 +1,7 @@
 ---
 title: Поздравить парня водителя Рождеством. Формальное и красивое
 description: Хотите поздравить парня Рождеством или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-rozhdestvom"
   professions: "voditel"
   style: "formalnoje"
+
+links:
+- slug: "pozdravit-parnja-s-rozhdestvom-formalnoje"
+  title: "Поздравить парня Рождеством. Формальное и красивое"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

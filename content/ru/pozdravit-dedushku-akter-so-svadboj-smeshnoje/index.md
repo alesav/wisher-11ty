@@ -1,7 +1,7 @@
 ---
 title: Поздравить дедушку актера со Свадьбой. Смешное
 description: Хотите поздравить дедушку со Свадьбой или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "so-svadboj"
   professions: "akter"
   style: "smeshnoje"
+
+links:
+- slug: "pozdravit-dedushku-so-svadboj-smeshnoje"
+  title: "Поздравить дедушку со Свадьбой. Смешное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

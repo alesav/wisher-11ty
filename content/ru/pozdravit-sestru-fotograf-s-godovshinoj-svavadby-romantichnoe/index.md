@@ -1,7 +1,7 @@
 ---
 title: Поздравить сестру фотографа с Годовщиной свадьбы. Романтичное
 description: Хотите поздравить сестру с Годовщиной свадьбы или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-godovshinoj-svavadby"
   professions: "fotograf"
   style: "romantichnoe"
+
+links:
+- slug: "pozdravit-sestru-s-godovshinoj-svavadby-romantichnoe"
+  title: "Поздравить сестру с Годовщиной свадьбы. Романтичное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

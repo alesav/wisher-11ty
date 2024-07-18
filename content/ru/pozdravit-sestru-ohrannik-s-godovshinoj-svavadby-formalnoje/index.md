@@ -1,7 +1,7 @@
 ---
 title: Поздравить сестру охранника с Годовщиной свадьбы. Формальное и красивое
 description: Хотите поздравить сестру с Годовщиной свадьбы или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-godovshinoj-svavadby"
   professions: "ohrannik"
   style: "formalnoje"
+
+links:
+- slug: "pozdravit-sestru-s-godovshinoj-svavadby-formalnoje"
+  title: "Поздравить сестру с Годовщиной свадьбы. Формальное и красивое"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

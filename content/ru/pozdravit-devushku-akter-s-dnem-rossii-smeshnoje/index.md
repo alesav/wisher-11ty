@@ -1,7 +1,7 @@
 ---
 title: Поздравить девушку актера с Днем России. Смешное
 description: Хотите поздравить девушку с Днем России или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-dnem-rossii"
   professions: "akter"
   style: "smeshnoje"
+
+links:
+- slug: "pozdravit-devushku-s-dnem-rossii-smeshnoje"
+  title: "Поздравить девушку с Днем России. Смешное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

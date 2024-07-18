@@ -1,7 +1,7 @@
 ---
 title: Поздравить подругу учителя с 1 апреля. Романтичное
 description: Хотите поздравить подругу с 1 апреля или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-1-aprelya"
   professions: "uchitel"
   style: "romantichnoe"
+
+links:
+- slug: "pozdravit-podrugu-s-1-aprelya-romantichnoe"
+  title: "Поздравить подругу с 1 апреля. Романтичное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

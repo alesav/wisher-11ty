@@ -1,7 +1,7 @@
 ---
 title: Поздравить брата айтишника c Днем рождения. Романтичное
 description: Хотите поздравить брата c Днем рождения или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-dnem-rozhdeniya"
   professions: "aitishnik"
   style: "romantichnoe"
+
+links:
+- slug: "pozdravit-brata-s-dnem-rozhdeniya-romantichnoe"
+  title: "Поздравить брата c Днем рождения. Романтичное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

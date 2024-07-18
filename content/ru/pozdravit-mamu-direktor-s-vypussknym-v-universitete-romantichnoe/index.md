@@ -1,7 +1,7 @@
 ---
 title: Поздравить маму директора с Выпускным в университете. Романтичное
 description: Хотите поздравить маму с Выпускным в университете или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-vypussknym-v-universitete"
   professions: "direktor"
   style: "romantichnoe"
+
+links:
+- slug: "pozdravit-mamu-s-vypussknym-v-universitete-romantichnoe"
+  title: "Поздравить маму с Выпускным в университете. Романтичное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

@@ -1,7 +1,7 @@
 ---
 title: Поздравить папу водителя с Днем защитника Отечества. Формальное и красивое
 description: Хотите поздравить папу с Днем защитника Отечества или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-dnem-zashitnika-otechestva"
   professions: "voditel"
   style: "formalnoje"
+
+links:
+- slug: "pozdravit-papu-s-dnem-zashitnika-otechestva-formalnoje"
+  title: "Поздравить папу с Днем защитника Отечества. Формальное и красивое"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

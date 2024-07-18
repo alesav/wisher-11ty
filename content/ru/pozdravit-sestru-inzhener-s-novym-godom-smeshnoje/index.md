@@ -1,7 +1,7 @@
 ---
 title: Поздравить сестру инженера с Новым годом. Смешное
 description: Хотите поздравить сестру с Новым годом или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-novym-godom"
   professions: "inzhener"
   style: "smeshnoje"
+
+links:
+- slug: "pozdravit-sestru-s-novym-godom-smeshnoje"
+  title: "Поздравить сестру с Новым годом. Смешное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

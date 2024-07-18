@@ -1,7 +1,7 @@
 ---
 title: Поздравить папу врача с Годовщиной свадьбы. Формальное и красивое
 description: Хотите поздравить папу с Годовщиной свадьбы или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-godovshinoj-svavadby"
   professions: "vrach"
   style: "formalnoje"
+
+links:
+- slug: "pozdravit-papu-s-godovshinoj-svavadby-formalnoje"
+  title: "Поздравить папу с Годовщиной свадьбы. Формальное и красивое"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

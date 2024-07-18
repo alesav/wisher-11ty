@@ -1,7 +1,7 @@
 ---
 title: Поздравить коллегу директора Рождеством. Романтичное
 description: Хотите поздравить коллегу Рождеством или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-rozhdestvom"
   professions: "direktor"
   style: "romantichnoe"
+
+links:
+- slug: "pozdravit-kollegu-s-rozhdestvom-romantichnoe"
+  title: "Поздравить коллегу Рождеством. Романтичное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

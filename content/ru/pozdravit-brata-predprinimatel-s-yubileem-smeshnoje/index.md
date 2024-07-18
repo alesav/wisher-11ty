@@ -1,7 +1,7 @@
 ---
 title: Поздравить брата предпринимателя с Юбилеем. Смешное
 description: Хотите поздравить брата с Юбилеем или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-yubileem"
   professions: "predprinimatel"
   style: "smeshnoje"
+
+links:
+- slug: "pozdravit-brata-s-yubileem-smeshnoje"
+  title: "Поздравить брата с Юбилеем. Смешное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

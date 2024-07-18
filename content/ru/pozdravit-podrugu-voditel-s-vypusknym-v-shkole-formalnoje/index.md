@@ -1,7 +1,7 @@
 ---
 title: Поздравить подругу водителя с Выпускным в школе. Формальное и красивое
 description: Хотите поздравить подругу с Выпускным в школе или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-vypusknym-v-shkole"
   professions: "voditel"
   style: "formalnoje"
+
+links:
+- slug: "pozdravit-podrugu-s-vypusknym-v-shkole-formalnoje"
+  title: "Поздравить подругу с Выпускным в школе. Формальное и красивое"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

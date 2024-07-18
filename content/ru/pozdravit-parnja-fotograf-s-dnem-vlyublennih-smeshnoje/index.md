@@ -1,7 +1,7 @@
 ---
 title: Поздравить парня фотографа с Днем влюбленных. Смешное
 description: Хотите поздравить парня с Днем влюбленных или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-dnem-vlyublennih"
   professions: "fotograf"
   style: "smeshnoje"
+
+links:
+- slug: "pozdravit-parnja-s-dnem-vlyublennih-smeshnoje"
+  title: "Поздравить парня с Днем влюбленных. Смешное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

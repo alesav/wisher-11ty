@@ -1,7 +1,7 @@
 ---
 title: Поздравить папу блогера с Выпускным в университете. Смешное
 description: Хотите поздравить папу с Выпускным в университете или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-vypussknym-v-universitete"
   professions: "bloger"
   style: "smeshnoje"
+
+links:
+- slug: "pozdravit-papu-s-vypussknym-v-universitete-smeshnoje"
+  title: "Поздравить папу с Выпускным в университете. Смешное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

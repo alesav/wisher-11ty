@@ -1,7 +1,7 @@
 ---
 title: Поздравить брата инженера со Свадьбой. Смешное
 description: Хотите поздравить брата со Свадьбой или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "so-svadboj"
   professions: "inzhener"
   style: "smeshnoje"
+
+links:
+- slug: "pozdravit-brata-so-svadboj-smeshnoje"
+  title: "Поздравить брата со Свадьбой. Смешное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

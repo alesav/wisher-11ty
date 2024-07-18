@@ -1,7 +1,7 @@
 ---
 title: Поздравить девушку директора со Свадьбой. Романтичное
 description: Хотите поздравить девушку со Свадьбой или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "so-svadboj"
   professions: "direktor"
   style: "romantichnoe"
+
+links:
+- slug: "pozdravit-devushku-so-svadboj-romantichnoe"
+  title: "Поздравить девушку со Свадьбой. Романтичное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

@@ -38,7 +38,7 @@ const fetchWishes = async (id) => {
 				headers: {
 					"Content-Type": "application/json",
 				},
-				body: JSON.stringify({ id }),
+				body: JSON.stringify({ id, language: "ru" }),
 			}
 		);
 

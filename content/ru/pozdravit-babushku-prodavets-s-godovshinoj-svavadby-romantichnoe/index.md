@@ -1,7 +1,7 @@
 ---
 title: Поздравить бабушку продавца с Годовщиной свадьбы. Романтичное
 description: Хотите поздравить бабушку с Годовщиной свадьбы или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-godovshinoj-svavadby"
   professions: "prodavets"
   style: "romantichnoe"
+
+links:
+- slug: "pozdravit-babushku-s-godovshinoj-svavadby-romantichnoe"
+  title: "Поздравить бабушку с Годовщиной свадьбы. Романтичное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

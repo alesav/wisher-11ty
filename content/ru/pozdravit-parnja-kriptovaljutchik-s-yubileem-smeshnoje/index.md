@@ -1,7 +1,7 @@
 ---
 title: Поздравить парня криптовалютчика с Юбилеем. Смешное
 description: Хотите поздравить парня с Юбилеем или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 24
@@ -24,6 +24,10 @@ selectedValues:
   holidays: "s-yubileem"
   professions: "kriptovaljutchik"
   style: "smeshnoje"
+
+links:
+- slug: "pozdravit-parnja-s-yubileem-smeshnoje"
+  title: "Поздравить парня с Юбилеем. Смешное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

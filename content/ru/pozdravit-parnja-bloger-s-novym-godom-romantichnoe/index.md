@@ -1,7 +1,7 @@
 ---
 title: Поздравить парня блогера с Новым годом. Романтичное
 description: Хотите поздравить парня с Новым годом или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-novym-godom"
   professions: "bloger"
   style: "romantichnoe"
+
+links:
+- slug: "pozdravit-parnja-s-novym-godom-romantichnoe"
+  title: "Поздравить парня с Новым годом. Романтичное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

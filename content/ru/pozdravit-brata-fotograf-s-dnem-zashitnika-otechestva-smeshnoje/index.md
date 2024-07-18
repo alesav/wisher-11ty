@@ -1,7 +1,7 @@
 ---
 title: Поздравить брата фотографа с Днем защитника Отечества. Смешное
 description: Хотите поздравить брата с Днем защитника Отечества или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-dnem-zashitnika-otechestva"
   professions: "fotograf"
   style: "smeshnoje"
+
+links:
+- slug: "pozdravit-brata-s-dnem-zashitnika-otechestva-smeshnoje"
+  title: "Поздравить брата с Днем защитника Отечества. Смешное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

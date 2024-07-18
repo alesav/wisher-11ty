@@ -1,7 +1,7 @@
 ---
 title: Поздравить девушку актера c Днем рождения. Смешное
 description: Хотите поздравить девушку c Днем рождения или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 20
@@ -19,6 +19,10 @@ selectedValues:
   holidays: "s-dnem-rozhdeniya"
   professions: "akter"
   style: "smeshnoje"
+
+links:
+- slug: "pozdravit-devushku-s-dnem-rozhdeniya-smeshnoje"
+  title: "Поздравить девушку c Днем рождения. Смешное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

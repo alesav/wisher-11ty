@@ -1,7 +1,7 @@
 ---
 title: Поздравить сестру учителя с Выпускным в школе. Смешное
 description: Хотите поздравить сестру с Выпускным в школе или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-vypusknym-v-shkole"
   professions: "uchitel"
   style: "smeshnoje"
+
+links:
+- slug: "pozdravit-sestru-s-vypusknym-v-shkole-smeshnoje"
+  title: "Поздравить сестру с Выпускным в школе. Смешное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

@@ -1,7 +1,7 @@
 ---
 title: Поздравить коллегу директора с Годовщиной свадьбы. Романтичное
 description: Хотите поздравить коллегу с Годовщиной свадьбы или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-godovshinoj-svavadby"
   professions: "direktor"
   style: "romantichnoe"
+
+links:
+- slug: "pozdravit-kollegu-s-godovshinoj-svavadby-romantichnoe"
+  title: "Поздравить коллегу с Годовщиной свадьбы. Романтичное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

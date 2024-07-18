@@ -1,7 +1,7 @@
 ---
 title: Поздравить девушку менеджера с Днем матери. Смешное
 description: Хотите поздравить девушку с Днем матери или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-dnem-materi"
   professions: "menedzher"
   style: "smeshnoje"
+
+links:
+- slug: "pozdravit-devushku-s-dnem-materi-smeshnoje"
+  title: "Поздравить девушку с Днем матери. Смешное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

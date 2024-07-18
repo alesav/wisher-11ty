@@ -1,7 +1,7 @@
 ---
 title: Поздравить брата учителя с 1 апреля. Смешное
 description: Хотите поздравить брата с 1 апреля или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-1-aprelya"
   professions: "uchitel"
   style: "smeshnoje"
+
+links:
+- slug: "pozdravit-brata-s-1-aprelya-smeshnoje"
+  title: "Поздравить брата с 1 апреля. Смешное"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

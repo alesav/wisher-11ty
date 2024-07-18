@@ -262,6 +262,30 @@ function formatDate(date) {
 const createFolderAndFile = (slug, title, selectedValues, description) => {
 	const currentDate = formatDate(new Date());
 	const folderPath = path.join("content", "ru", slug);
+
+	// Generate the link if professionKey is not "doesnt-matter"
+	let linksBlock = "";
+	if (selectedValues.professions !== "ne-vazhno") {
+		const linkSlugParts = [
+			"pozdravit",
+			selectedValues.recipients,
+			selectedValues.holidays,
+			selectedValues.style,
+		];
+
+		const linkSlug = linkSlugParts.join("-");
+		const linkTitle = `Поздравить ${
+			recipientDisplayMapping[selectedValues.recipients]
+		} ${holidayDisplayMapping[selectedValues.holidays]}. ${
+			styleDisplayMapping[selectedValues.style]
+		}`;
+
+		linksBlock = `
+links:
+- slug: "${linkSlug}"
+  title: "${linkTitle}"`;
+	}
+
 	const fileContent = `---
 title: ${title}
 description: ${description}
@@ -278,6 +302,7 @@ selectedValues:
   holidays: "${selectedValues.holidays}"
   professions: "${selectedValues.professions}"
   style: "${selectedValues.style}"
+${linksBlock}
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

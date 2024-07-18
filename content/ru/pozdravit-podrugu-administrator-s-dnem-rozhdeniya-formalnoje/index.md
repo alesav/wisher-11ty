@@ -1,7 +1,7 @@
 ---
 title: Поздравить подругу администратора c Днем рождения. Формальное и красивое
 description: Хотите поздравить подругу c Днем рождения или другим праздником? Наш ИИ создаст незабываемое поздравление, а вы обязательно выделитесь среди других.  
-date: 2024-07-13
+date: 2024-07-19
 tags: second tag
 wishes:
 - id: 0
@@ -14,6 +14,10 @@ selectedValues:
   holidays: "s-dnem-rozhdeniya"
   professions: "administrator"
   style: "formalnoje"
+
+links:
+- slug: "pozdravit-podrugu-s-dnem-rozhdeniya-formalnoje"
+  title: "Поздравить подругу c Днем рождения. Формальное и красивое"
 ---
 
 Здесь вы найдете отличную подборку поздравлений на любой случай. 

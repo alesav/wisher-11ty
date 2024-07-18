@@ -90,6 +90,17 @@ layout: layouts/base.njk
     {% endif %}
   </div>
 
+    {%- if links and links.length > 0 %}
+    <div class="related-links">
+      <h2>Похожие страницы</h2>
+      <ul>
+        {% for link in links %}
+          <li><a href="/ru/{{ link.slug }}">{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
 {{ content | safe }}
 
 {%- if collections.posts %}
