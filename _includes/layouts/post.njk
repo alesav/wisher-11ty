@@ -55,11 +55,11 @@ layout: layouts/base.njk
   </div>
 </div>
 
-<section class="wishes-section">
-  <h1>{{ title }}</h1>
+<section class="wishes-section" itemscope itemtype="https://schema.org/Article">
+  <h1 itemprop="headline">{{ title }}</h1>
 
 <ul class="post-metadata">
-	<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
+	<li><time datetime="{{ page.date | htmlDateString }}" itemprop="datePublished">{{ page.date | readableDate }}</time></li>
 	{%- for tag in tags | filterTagList %}
 	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
@@ -92,12 +92,9 @@ layout: layouts/base.njk
 
     {%- if links and links.length > 0 %}
     <div class="related-links">
-      <h2>Похожие страницы</h2>
-      <ul>
         {% for link in links %}
-          <li><a href="/ru/{{ link.slug }}">{{ link.title }}</a></li>
+          Похожее: <a href="/ru/{{ link.slug }}">{{ link.title }}</a>
         {% endfor %}
-      </ul>
     </div>
   {% endif %}
 

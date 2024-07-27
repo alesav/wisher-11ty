@@ -44,9 +44,23 @@
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/" class="home-link">{{ metadata.title }}</a>
+			<div class="header-content">
+				<a href="/ru" class="home-link" itemprop="name">{{ metadata.title }}</a>
 
-			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+				<div class="language-selector">
+					<select onchange="window.location.href=this.value">
+						<option value="https://wisher.today/ru" {% if metadata.language == 'ru' %}selected{% endif %}>Русский</option>
+						<option value="https://wisher.today/en" {% if metadata.language == 'en' %}selected{% endif %}>English</option>
+						<option value="https://wisher.today/es" {% if metadata.language == 'es' %}selected{% endif %}>Español</option>
+						<option value="https://wisher.today/pt" {% if metadata.language == 'pt' %}selected{% endif %}>Português</option>
+						<option value="https://wisher.today/ua" {% if metadata.language == 'ua' %}selected{% endif %}>Українська</option>
+					</select>
+				</div>
+			</div>
+
+			<nav>
+				<!-- ... (keep your existing navigation content) ... -->
+			</nav>
 		</header>
 
 		<main id="skip">
