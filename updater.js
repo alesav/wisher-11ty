@@ -85,6 +85,9 @@ const updateMarkdownFile = (wish) => {
 		// Format all existing wishes
 		existingWishes = existingWishes.map(formatWish);
 
+		// Remove the placeholder wish if it exists
+		existingWishes = existingWishes.filter((w) => !w.includes("- id: 0"));
+
 		// Check if the wish already exists
 		const wishExists = existingWishes.some((w) => w.includes(`- id: ${id}`));
 

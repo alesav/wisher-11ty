@@ -574,7 +574,6 @@ document.addEventListener("DOMContentLoaded", function () {
 			e.target.classList.contains("upvote-btn") ||
 			e.target.classList.contains("downvote-btn")
 		) {
-			cop;
 			const wishCard = e.target.closest(".wish-card");
 			const wishIndex = Array.from(wishesContainer.children).indexOf(wishCard);
 			const voteType = e.target.classList.contains("upvote-btn")
@@ -583,7 +582,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 			try {
 				const response = await fetch(
-					"https://sonicjs.smspm.workers.dev/o/sendinwisher",
+					"https://sonicjs.smspm.workers.dev/o/wishervote",
 					{
 						method: "POST",
 						headers: { "Content-Type": "application/json" },
