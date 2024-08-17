@@ -458,27 +458,57 @@ document.addEventListener("DOMContentLoaded", function () {
 		return interval;
 	}
 
+	let currentTypingInterval = null;
+
 	async function generateWish() {
-		const response = await fetch(
-			"https://sonicjs.smspm.workers.dev/o/sendinwisher",
-			{
-				method: "POST",
-				headers: { "Content-Type": "application/json" },
-				body: JSON.stringify({
-					who: recipientsSelect.options[recipientsSelect.selectedIndex].text,
-					celebration:
-						holidaysSelect.options[holidaysSelect.selectedIndex].text,
-					occupation:
-						professionsSelect.options[professionsSelect.selectedIndex].text,
-					style: styleSelect.options[styleSelect.selectedIndex].text,
-					language: "ru",
-					slug: window.location.pathname.slice(4),
-				}),
-			}
+		// Clear any ongoing typing and reset the text area
+		if (currentTypingInterval) {
+			clearInterval(currentTypingInterval);
+		}
+		wishText.innerHTML = ""; // Clear the area
+
+		// Start typing the "thinking" message
+		currentTypingInterval = typeText(
+			"ИИ думает......................еще немного.................................ща все будет..........................",
+			wishText
 		);
-		const data = await response.json();
-		if (data && data.result) {
-			typeText(data.result, wishText);
+
+		try {
+			const response = await fetch(
+				"https://sonicjs.smspm.workers.dev/o/sendinwisher",
+				{
+					method: "POST",
+					headers: { "Content-Type": "application/json" },
+					body: JSON.stringify({
+						who: recipientsSelect.options[recipientsSelect.selectedIndex].text,
+						celebration:
+							holidaysSelect.options[holidaysSelect.selectedIndex].text,
+						occupation:
+							professionsSelect.options[professionsSelect.selectedIndex].text,
+						style: styleSelect.options[styleSelect.selectedIndex].text,
+						language: "ru",
+						slug: window.location.pathname.slice(4),
+					}),
+				}
+			);
+			const data = await response.json();
+
+			// Clear the "thinking" message and stop its typing
+			clearInterval(currentTypingInterval);
+			wishText.innerHTML = ""; // Clear the area again
+
+			if (data && data.result) {
+				// Start typing the actual result
+				currentTypingInterval = typeText(data.result, wishText);
+			}
+
+			return data;
+		} catch (error) {
+			console.error("Ошибка при генерации пожелания:", error);
+			// Clear any ongoing typing and display an error message
+			clearInterval(currentTypingInterval);
+			wishText.innerHTML =
+				"Произошла ошибка при генерации пожелания. Пожалуйста, попробуйте еще раз.";
 		}
 	}
 
@@ -487,14 +517,26 @@ document.addEventListener("DOMContentLoaded", function () {
 		if (wishCards.length > 0) {
 			const randomIndex = Math.floor(Math.random() * wishCards.length);
 			const randomWish = wishCards[randomIndex].querySelector("p").textContent;
-			typeText(randomWish, wishText);
+			if (currentTypingInterval) {
+				clearInterval(currentTypingInterval);
+			}
+			currentTypingInterval = typeText(randomWish, wishText);
 		} else {
-			typeText(
+			if (currentTypingInterval) {
+				clearInterval(currentTypingInterval);
+			}
+			currentTypingInterval = typeText(
 				"Пока тут нет пожеланий, нажмите кнопку ниже чтобы сгенерировать первое",
 				wishText
 			);
 		}
 	}
+
+	generateBtn.addEventListener("click", async () => {
+		generateBtn.textContent = "Думаю...";
+		await generateWish();
+		generateBtn.textContent = "Сгенерировать еще";
+	});
 
 	function displayWishes() {
 		wishesContainer.innerHTML = "";
@@ -531,8 +573,6 @@ document.addEventListener("DOMContentLoaded", function () {
 				"<p>Пока тут нет пожеланий, нажмите кнопку ниже чтобы сгенерировать первое</p>";
 		}
 	}
-
-	let currentTypingInterval = null;
 
 	generateBtn.addEventListener("click", async () => {
 		if (currentTypingInterval) {
