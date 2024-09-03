@@ -14,13 +14,13 @@ current_date=$(date +"%Y-%m-%d %H:%M:%S")
 commit_message="Auto commit on $current_date"
 
 # Add all changes to staging
-git add .
+/opt/homebrew/bin/git add .
 
 # Commit changes with the automatic message
-git commit -m "$commit_message"
+/opt/homebrew/bin/git commit -m "$commit_message"
 
 # Push changes to the current branch
-git push origin main
+/opt/homebrew/bin/git push origin main
 
 # Display success message
 echo "Changes have been committed and pushed successfully with message: '$commit_message'."
