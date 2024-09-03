@@ -1,9 +1,11 @@
 #!/bin/bash
 
-node ../playwright/ru.js 100
+cd /Users/alesav/Dev/aider/wisher/wisher-11ty
+
+/Users/alesav/.nvm/versions/node/v20.9.0/bin/node ../playwright/ru.js 100
 
 # Run the updater
-node updater.js
+/Users/alesav/.nvm/versions/node/v20.9.0/bin/node updater.js
 
 # Get the current date in the desired format
 current_date=$(date +"%Y-%m-%d %H:%M:%S")
@@ -23,4 +25,4 @@ git push origin main
 # Display success message
 echo "Changes have been committed and pushed successfully with message: '$commit_message'."
 
-# Run wishes creator
+exit
