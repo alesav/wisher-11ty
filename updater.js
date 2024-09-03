@@ -61,7 +61,15 @@ const updateMarkdownFile = (wish) => {
 
 	try {
 		// Read the existing content of the markdown file
-		const fileContent = fs.readFileSync(filePath, "utf8");
+		let fileContent = fs.readFileSync(filePath, "utf8");
+
+		// Update the date field to today's date
+		const today = new Date().toISOString().split("T")[0];
+		fileContent = fileContent.replace(
+			/date:\s*\d{4}-\d{2}-\d{2}/,
+			`date: ${today}`
+		);
+
 		const wishStart = fileContent.indexOf("wishes:\n") + "wishes:\n".length;
 		const wishesEnd = fileContent.indexOf("\nselectedValues:");
 

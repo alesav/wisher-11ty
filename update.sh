@@ -1,6 +1,6 @@
 #!/bin/bash
 
-node ../playwright/ru.js 10
+node ../playwright/ru.js 100
 
 # Run the updater
 node updater.js
