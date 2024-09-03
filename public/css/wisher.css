@@ -270,7 +270,6 @@ header {
 .header-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 100%;
 }
 
@@ -297,7 +296,7 @@ header {
 
 @media (max-width: 768px) {
   .hero-section {
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
   }
 
