@@ -2,7 +2,7 @@
 
 cd /Users/alesav/Dev/aider/wisher/wisher-11ty
 
-/Users/alesav/.nvm/versions/node/v20.9.0/bin/node --expose-gc ../playwright/ru.js 500
+/Users/alesav/.nvm/versions/node/v20.9.0/bin/node --expose-gc ../playwright/ru.js 100
 
 # Run the updater
 /Users/alesav/.nvm/versions/node/v20.9.0/bin/node updater.js
