@@ -55,7 +55,7 @@ const fetchWishes = async (id) => {
 
 // Function to update the markdown file with the new wish data
 const updateMarkdownFile = (wish) => {
-	const { slug, wish: wishText, id, rating, updated, language } = wish;
+	const { slug, wish: wishText, id, up, down, updated, language } = wish;
 	const folderPath = path.join("content", language, slug);
 	const filePath = path.join(folderPath, "index.md");
 
@@ -103,6 +103,17 @@ const updateMarkdownFile = (wish) => {
 			!wishExists ||
 			(wish.updated && new Date(wish.updated) > new Date(wishExists.updated))
 		) {
+			// Calculate the rating, it should be 0 if both up and down are 0
+			let rating = 0;
+			if (parseInt(up) === 0 && parseInt(down) === 0) {
+				// console.log(`Rating for ${up}: ${down} is 0`);
+			} else {
+				rating = (
+					(parseInt(up) - parseInt(down)) /
+					(parseInt(up) + parseInt(down))
+				).toFixed(2);
+			}
+
 			const newWishEntry = formatWish(`- id: ${id}
 text: "${wishText.replace(/"/g, '\\"')}"
 rating: "${rating}"

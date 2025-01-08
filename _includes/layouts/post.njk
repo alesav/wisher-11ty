@@ -93,7 +93,7 @@ layout: layouts/base.njk
     {%- if links and links.length > 0 %}
     <div class="related-links">
         {% for link in links %}
-          Похожее: <a href="/ru/{{ link.slug }}">{{ link.title }}</a>
+          Похожее: <a href="/ru/{{ link.slug }}/">{{ link.title }}</a>
         {% endfor %}
     </div>
   {% endif %}
